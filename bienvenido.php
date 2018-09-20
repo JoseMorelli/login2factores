@@ -1,0 +1,14 @@
+<?php include_once 'validarSesion.php'; ?>
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Jose Morelli</title>
+    </head>
+    <body>
+        <h1>ACCESO CORRECTO</h1>
+        <H2>Zona de trabajo</H2>
+        <H3> Sesión activa</H3>
+        Este es su espacio de usuario, no olvide cerrar su sesión.
+        <p></p>
+    <a href="logout.php">Cerrar Sesión <?php //echo $loguser; ?></a>
